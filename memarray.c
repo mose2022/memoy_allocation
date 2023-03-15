@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main() {
+<<<<<<< HEAD
     int n;
     printf("Enter the size of the array: ");
     scanf("%d", &n);
@@ -35,3 +36,28 @@ int main() {
 //  assigns values to the array
 //  and then prints the array.
 //  Finally, it frees the allocated memory using free()
+=======
+	int n;
+	printf(Enter the size of the array: ");
+	scanf("%d\n", &n);
+
+	// allocate memory for an array of n integers
+	int* arr = (int*) malloc(n * sizeof(int));
+
+	if(arr = NULL) {
+		printf("Memory allocation failed!\n");
+
+		return 0;
+	}
+
+	// assign values to th array
+	for(int i=0; i < n; i++) {
+		printf("%d\n", arra[i];
+	}
+
+	free the allocated memory
+	free(arr);
+	return 0/;
+
+}
+>>>>>>> 19be9eb8df34c709674143299f76a48880733cbb
